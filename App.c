@@ -25,7 +25,16 @@ Statically Typed: types are checked at chimple time.
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "./headers/BasicIO.h"
+#include "./headers/Decisions.h"
 
 int main(void) {
-    puts ("Hello World!");
+    //puts ("Hello World!");
+    //output();
+    //input();
+    decisions1();
+
+    //decisions3();
+    //decisions4();
 }
+
