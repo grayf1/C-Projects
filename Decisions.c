@@ -121,7 +121,7 @@ void decisions5(void)
 
     // inout operation
     printf("Enter operation to be performed (+, - , * ,/)");
-    scanf("%c", &num1);
+    scanf("%c", &operation);
 
     // input numbers
     printf("Enter first number");
