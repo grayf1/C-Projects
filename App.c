@@ -28,6 +28,7 @@ Statically Typed: types are checked at chimple time.
 #include "./headers/BasicIO.h"
 #include "./headers/Decisions.h"
 #include "./headers/Loops.h"
+#include "./headers/Functions.h"
 
 int main(void)
 {
@@ -43,9 +44,18 @@ int main(void)
    // decisions5();
     // decisions6();
     // testing loops functionality 
-    loops1();
+   /* loops1();
     loops2();
     loops3();
     loops4();
-    loops5();
-}
+    loops5();*/
+    //testing function functionality
+    // declare 3 charcater arrays and initialize them 
+    char student[] = "Faith";
+    char course[] = "Ruby";
+    char programmer[] = "Yuki Matsumoto";
+    congratulate1(student, course, programmer); 
+    congratulate2(student, course, programmer);
+    printf("%.2f degrees celsius = %.2f degrees fahrenheit\n", 
+    0.0, fahrenheitFromCelsius(0.0)); 
+    }
