@@ -12,6 +12,7 @@ no string type in C; there is char *
 void congratulate1(char *student, char *course, char *programmer){
     printf("%s has done has much %s programming as %s. \n", 
     student, course, programmer);
+    congratulate2(student, course, programmer);
 }
 
 // this function has 3 parameters and it has a local variable

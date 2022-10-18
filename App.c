@@ -29,6 +29,7 @@ Statically Typed: types are checked at chimple time.
 #include "./headers/Decisions.h"
 #include "./headers/Loops.h"
 #include "./headers/Functions.h"
+#include "./headers/Pointers.h"
 
 int main(void)
 {
@@ -51,11 +52,17 @@ int main(void)
     loops5();*/
     //testing function functionality
     // declare 3 charcater arrays and initialize them 
-    char student[] = "Faith";
+   /* char student[] = "Faith";
     char course[] = "Ruby";
     char programmer[] = "Yuki Matsumoto";
     congratulate1(student, course, programmer); 
     congratulate2(student, course, programmer);
     printf("%.2f degrees celsius = %.2f degrees fahrenheit\n", 
-    0.0, fahrenheitFromCelsius(0.0)); 
+    0.0, fahrenheitFromCelsius(0.0)); */
+
+    // testing pointers functionality
+    printAddress();
+    printf("The global variable i stores its value at %p\n", getAddress());
+    printf("The global static variable stores %d\n", getDataAddress());
     }
+
