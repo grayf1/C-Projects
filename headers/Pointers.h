@@ -11,4 +11,5 @@ int * getAddress(void);
 int getDataAddress(void);
 double storeDataAddress(void);
 int getDoubleBytes(void);
+int getPointerToDoubleBytes(void);
 void pointerToNull(void);
